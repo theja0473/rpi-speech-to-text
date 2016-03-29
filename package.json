@@ -1,0 +1,23 @@
+{
+  "name": "rpi-speech-to-text",
+  "version": "1.0.0",
+  "description": "Speech to Text on the Raspberry Pi",
+  "main": "sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pubnub/rpi-speech-to-text.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pubnub/rpi-speech-to-text/issues"
+  },
+  "homepage": "https://github.com/pubnub/rpi-speech-to-text#readme",
+  "dependencies": {
+    "pubnub": "^3.14.4"
+  }
+}
